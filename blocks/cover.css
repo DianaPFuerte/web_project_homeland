@@ -1,5 +1,5 @@
 .cover {
-  max-width: 984;
+  max-width: 984px;
   max-height: 983;
 
   opacity: 1;
@@ -31,11 +31,18 @@
 }
 
 .cover__image {
-  margin-top: 40px;
+  /* margin-top: 40px;
   max-width: 984px;
   max-height: 492px;
   object-fit: cover;
 
   display: block;
-  margin: 0 auto;
+  margin: 0 auto; */
+
+  margin-top: 40px;
+  width: 100%;
+  padding: 0;
+  /* padding-bottom: 100%; */
+  background-size: cover;
+  background-position: center;
 }
