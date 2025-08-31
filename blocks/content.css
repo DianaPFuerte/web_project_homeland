@@ -14,7 +14,7 @@
 
 .content__title {
   opacity: 1;
-  font-size: 3.6rem;
+  font-size: 54px;
 }
 
 .content__quote {
@@ -31,4 +31,18 @@
 .content__text {
   font-size: 1rem;
   line-height: 1.63;
+}
+
+@media screen and (max-width: 320px) {
+  .content__title {
+    opacity: 1;
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content__title {
+    opacity: 1;
+    font-size: 45px;
+  }
 }
