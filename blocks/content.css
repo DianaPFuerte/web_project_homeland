@@ -38,11 +38,19 @@
     opacity: 1;
     font-size: 32px;
   }
+
+  .content {
+    padding: 0 16px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .content__title {
     opacity: 1;
     font-size: 45px;
+  }
+
+  .content {
+    padding: 0 24px;
   }
 }
